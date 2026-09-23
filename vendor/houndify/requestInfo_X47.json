@@ -1,0 +1,63 @@
+{
+  "UserID": "uv_productintelligence_cli_test",
+  "ProfanityFilter": "StarAllButFirst",
+  "DeviceInfo": {
+    "DeviceModel": "X47",
+    "DeviceYear": "2025",
+    "DeviceName": "Ultraviolette"
+  },
+  "ResponseAudioAcceptedEncodings": [
+    "mp3",
+    "WAV"
+  ],
+  "CarStatus": {
+    "FuelRemaining": 82,
+    "DistanceBeforeOutOfFuel": 260,
+    "DrivingRange": 260,
+    "BatteryLevel": 82,
+    "PreferredSourceOfTruth": "RequestInfo",
+    "DistanceUnit": "Km",
+    "FuelUnit": "Percent",
+    "BrakePadStatus": 41
+  },
+  "ResponseAudioShortOrLong": "Long",
+  "ServerDeterminesEndOfAudio": true,
+  "BrandingFAQApiData": {
+    "Version": "1",
+    "GroupName": "Ultraviolette"
+  },
+  "InputLanguageIETFTag": "en",
+  "OpenAITTSParameters": {
+    "Speed": 1.05,
+    "SampleRate": 16000,
+    "Model": "tts-1-hd",
+    "Instructions": "Sound motivated and lively, but do not exaggerate"
+  },
+  "Latitude": 36.133719,
+  "EnableCompatibility": {
+    "CarStatusV1": 1
+  },
+  "Domains": {
+    "Exclude": {
+      "DomainNames": []
+    }
+  },
+  "Longitude": -115.157475,
+  "MicrosoftTTSParameters": {
+    "Speed": 17,
+    "Volume": 100,
+    "SampleRate": 16000,
+    "BitRate": 16000,
+    "AudioOutputFormat": "audio-48khz-96kbitrate-mono-mp3"
+  },
+  "WakeUpPattern": "[[\"hey\"|\"ok\"|\"hello\"].(\"violette\"|\"hound\"|\"soundhound\")]",
+  "OutputLanguageIETFTag": "en",
+  "ReturnResponseAudioAsURL": false,
+  "TimeZone": "Europe/Paris",
+  "InputLanguageEnglishName": "English",
+  "LocalPlacesSettings": {
+    "SmartWildcardFavorAccuracy": true
+  },
+  "ResponseAudioVoice": "Samuel Multilingual",
+  "PartialTranscriptsDesired": true
+}
